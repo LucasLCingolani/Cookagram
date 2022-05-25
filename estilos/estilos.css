@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.borde {
+    border: 10px solid #C296C1;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+}
+.btn-mayor {
+    width: 50%;
+}
+
+
+.rosa-btn {
+    background-color: hotpink;
+    border-radius: 7px;
+}
+
+.silueta1 {
+    background: url(../imagenes/silueta1.png);
+}
+
+.silueta2 {
+    background: url(../imagenes/silueta2.png);
+}
+
+@font-face {
+    font-family: 'fuente';
+    src: url('../fuente/ariestha_script-webfont.woff2') format('woff2'),
+        url('../fuente/ariestha_script-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+label {
+    margin: 5px;
+}
+
+.h2-mio {
+    font-size: 4em;
+    margin: auto;
+}
+
+.radius {
+    border-radius: 5px;
+}
+
+.radius2 {
+    border-radius: 10px;
+    border: 0;
+    width: 100px;
+    height: auto;
+}
+.radius3 {
+    border-radius: 50px;
+}
+
+.p-r {
+    font-size: 2em;
+    padding: 10px;
+}
+
+.vw {
+    font-size: 7vw;
+}
+
+.rosa {
+    background-color: #E9DBE5;
+}
+
+
+.llevamos {
+    font-size: 1.3em;
+    text-align: right;
+    margin: 0;
+    padding: 4px;
+
+}
+
+.huellitas {
+    text-align: left;
+    font-size: 1.3em;
+    position: relative;
+    top: 10px;
+    margin: 0;
+    padding: 4px;
+}
+
+
+#logo {
+    width: 100px;
+    height: 100px;
+    font-size: 0;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    z-index: 1031;
+    background: url("../imagenes/logo.png")
+}
+
+body {
+    font-family: fuente;
+    line-height: 1.5em;
+    letter-spacing: 0.15em;
+    margin-top: 2.0rem;
+}
+
+.inicio {
+
+    font-size: 0;
+}
+
+nav ul li {
+    width: 100px;
+    margin: 10px 2% 10px 2%;
+    padding: 10px 10px 10px 10px;
+    background-color: #C4ADBF;
+    border-radius: 10px;
+    text-align: center;
+
+
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav a {
+    width: 150px;
+    color: black;
+}
+
+#redes {
+    list-style: none;
+    background-color: #E9DBE5;
+}
+
+.espacio-top {
+    margin-top: 6rem;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .p-r {
+        font-size: 1em;
+    }
+
+    .btn-mayor {
+        width: 100%;
+    }
+
+    .siluetas-1-2 {
+        margin: auto;
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+.personas {
+    float: right;
+}
+
+.reviewag {
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+
+.reviewb {
+    margin-top: 80px;
+    padding-bottom: 20px;
+
+}
+
+.review3am {
+    margin: auto;
+
+}
+
+.reviewm {
+    margin-top: 120px;
+
+}
+
+.texto {
+    margin: auto;
+    padding-top: 20px;
+    font-size: 1.3em;
+}
+
+.texto2 {
+    margin: auto;
+    padding-top: 15px;
+    font-size: 1.3em;
+}
+
+.espacioss {
+    padding: 60px;
+}
+
+@media (min-width: 768px) {
+    h2 {
+        margin-top: 200px;
+    }
+
+    .huellitas {
+        font-size: 1.5em;
+    }
+
+    .llevamos {
+        font-size: 1.5em;
+    }
+
+    .siluetas-1-2 {
+        margin: auto;
+        width: 50%;
+        height: auto;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .llevamos {
+        font-size: 2.8em;
+        text-align: right;
+    }
+
+    .huellitas {
+        text-align: left;
+        font-size: 2.8em;
+        position: relative;
+        top: 60px;
+    }
+
+    .div-espacio {
+        width: 800px;
+        ;
+    }
+}
